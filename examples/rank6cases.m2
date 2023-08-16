@@ -1,3 +1,6 @@
+-- Sourced from math.mit.edu/~poonen/papers/dimension6.pdf
+--     Bjorn poonen
+--     Isomorphism types of commutative algebras of finite rank over an algebraically closed field
 rank6case1 = QQ[x] / (x^6);
 rank6case2 = QQ[x, y] / (x^2, x*y, y^5);
 rank6case3 = QQ[x, y] / (x^2 + y^4, x*y);
